@@ -14,7 +14,7 @@ Viewing the webpages associated with a website can reveal hidden or inaccessible
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. In the top right corner, enable **Developer mode**.
 4. Click on the **Load unpacked** button.
-5. Find and select the extracted `Sitemap Crawler`.
+5. Find and select the extracted `Sitemap Crawler` folder.
 
 Your extension is now installed and ready to use.
 
