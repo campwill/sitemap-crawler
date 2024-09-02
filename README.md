@@ -10,7 +10,7 @@ Users are able to copy the results, as well as export them as a *.txt* file
 Viewing the webpages associated with a website can reveal hidden or inaccessible pages that aren't easily found through regular browsing. By analyzing the sitemap, you can uncover archived content or obscure resources that provide deeper insights into the site's structure or undisclosed information. This can be crucial for investigations, security assessments, or understanding the full extent of a website's online presence.
 
 ## Installation
-1. Download and extract the `Sitemap Crawler.zip` file from the Releases page. 
+1. Download and extract the `SitemapCrawler.zip` file from the Releases page. 
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. In the top right corner, enable **Developer mode**.
 4. Click on the **Load unpacked** button.
