@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sitemap Viewer</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    #links {
+      width: 400px;
+      height: 300px;
+      overflow-y: auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: .25rem;
+      padding-inline: 5px;
+      margin-bottom: 15px;
+    }
+    #links a {
+      display: block;
+      margin: 8px 0;
+      color: #007bff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      margin: 5px;
+    }
+    #links a:hover {
+      text-decoration: underline;
+    }
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .header-container .header-title {
+      margin: 0;
+      font-size: 1.75rem;
+    }
+    .header-container .header-buttons {
+      display: flex;
+      align-items: center;
+    }
+    .header-container .header-buttons button {
+      margin-left: 15px;
+    }
+    #error-message-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .error-message {
+      padding: 10px;
+      border: 1px solid #d9534f;
+      border-radius: .25rem;
+      background-color: #f2dede;
+      color: #d9534f;
+      font-size: 1rem;
+      text-align: center;
+      max-width: 80%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="header-container mb-3">
+      <h1 class="header-title">Sitemap Crawler</h2>
+      <div class="header-buttons">
+        <button class="btn btn-outline-secondary" id="copy-button" title="Copy Links">
+          <img id="copy-image" src="images/copy.png" style="width: 20px;">
+        </button>
+        <button class="btn btn-outline-secondary" id="export-button" title="Export Links">
+          <img src="images/export.png" style="width: 20px;">
+        </button>
+        <span id="copy-status"></span>
+      </div>
+    </div>
+    <div id="links"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

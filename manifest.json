@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Sitemap Crawler",
+    "version": "1.0",
+    "description": "Prints all of the links found within a website's sitemap.",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/sitemap.png"
+    }
+  }
+  
